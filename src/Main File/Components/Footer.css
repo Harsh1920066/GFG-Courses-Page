@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Jost:ital,wght@0,200;0,700;1,200;1,600&family=Poppins:wght@200;300&family=Roboto&display=swap');
+
+#hr_line {
+    position: relative;
+    top: 50px;
+    size: 1px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    z-index: 1;
+    margin-top: 100px;
+}
+
+child-container {
+    width: 96%;
+    margin: 0 auto;
+}
+
+.flexParent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.location{
+    display: block;
+}
+.location #Company_name {
+    width: 30%;
+    font-size: 1.3em;
+    color: black;
+    font-weight: 700;
+    margin-left: 50px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.8px;
+}
+
+.full_address {
+    padding: 25px 0px 10px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.full_address p {
+    font-size: 13px;
+    color: rgb(117, 120, 120);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.full_address #feedback {
+    margin-top: 17px;
+}
+
+.copyright {
+    background-color: rgba(60, 172, 101, 0.999);
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.copyright p {
+    height: auto;
+    font-size: 15px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    padding: 18px 0px 13px 50px;
+    font-family: '', sans-serif;
+}
+
+.Footer_content {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.company{
+    margin-left: -85px;
+    margin-right: 40px;
+}
+.company p {
+font-size: 16px;
+font-weight: 900;
+font-family: 'Poppins',sans-serif;
+letter-spacing: 0.6px;
+color: rgba(60, 172, 101, 0.999);
+margin-bottom: 15px;
+display: block;
+}
+.company .ul{
+    display: block;
+    padding-bottom: 33px;
+}
+.company ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.company ul li{
+    font-family: 'Poppins',sans-serif;
+    color: rgb(119, 124, 124);
+    font-size: 0.8em;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+}
